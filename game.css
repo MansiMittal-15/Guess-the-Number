@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+header{
+    width: 100%;
+    height: 6rem;
+    background-color: #081831;
+    font-size: 3rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: dotted yellow 3px;
+    border-top: dotted rgba(255, 255, 3, 0.61) 3px;
+}
+
+
+.main{
+    height: calc(100vh - 6rem);
+    width: 100%;
+    background-color: rgba(255, 255, 3, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.input{
+    margin-top: 3rem;
+}
+
+
+#label{
+    font-size: 2.5rem;
+}
+
+
+#value{
+    padding: 2rem;
+    font-size: 2rem;
+    border-radius: 100%;
+}
+
+#submit{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    padding: 1rem;
+    border-radius: 18px;
+    cursor: pointer;
+    background-color: #081831;
+    color: #fff;
+    border: solid whitesmoke 5px;
+}
+
+#submit:hover{
+    background-color: #052570;
+}
+
+
+.scoreBoard{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 6rem;
+}
+
+
+.result{
+    background-color: orange;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border: solid whitesmoke 4px;
+    font-size: 2rem;
+}
+
+
+.result:hover{
+    cursor: pointer;
+}
+
+
+#attempt, #score{
+    font-size: 4rem;
+}
+
+
+p{
+    font-size: 2rem;
+}
+
+
+#restart{
+    align-self: flex-end;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    background-color :#081831;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 0.2rem;
+    border: solid whitesmoke 3px;
+}
+
+#restart:hover{
+    background-color:#052570 ;
+    cursor: pointer;
+}
