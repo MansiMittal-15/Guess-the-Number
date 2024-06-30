@@ -36,7 +36,7 @@ btn.addEventListener("click",()=>{
             value.value = "";
             score.innerHTML = "100";
             attempt.innerHTML = "0";
-        }, 5000)
+        }, 8000)
     }
     else if(random > val && val >= 1)
     {
