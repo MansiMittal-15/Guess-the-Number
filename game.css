@@ -8,10 +8,10 @@
 
 
 header{
-    width: 100%;
-    height: 6rem;
+    min-width: 100%;
+    height: 5rem;
     background-color: #081831;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fff;
     display: flex;
     align-items: center;
@@ -22,34 +22,41 @@ header{
 
 
 .main{
-    height: calc(100vh - 6rem);
+    min-height: calc(100vh - 5rem);
     width: 100%;
     background-color: rgba(255, 255, 3, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.input{
+    margin-top: 2rem;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-.input{
-    margin-top: 3rem;
-}
-
-
 #label{
-    font-size: 2.5rem;
+    font-size: 2rem;
+    width: 80vw;
 }
 
 
 #value{
-    padding: 2rem;
+    padding: 1rem;
     font-size: 2rem;
-    border-radius: 100%;
+    border-radius: 100px;
+    max-width: 100%;
 }
 
 #submit{
     margin-top: 2rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 1rem;
     border-radius: 18px;
     cursor: pointer;
@@ -86,12 +93,12 @@ header{
 
 
 #attempt, #score{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 
 p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 
